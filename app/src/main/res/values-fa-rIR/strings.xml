@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مدیریت فایل</string>
+
+
+    <string name="grid">شبکه</string>
+    <string name="list">لیست</string>
+
+
+
+    <string name="search">جستجو</string>
+    <string name="delete">پاک کردن</string>
+    <string name="newfolder">پوشه جدید</string>
+    <string name="newtext">متن جدید</string>
+    <string name="move">انتقال</string>
+    <string name="copy">رونوشت(کپی)</string>
+    <string name="show_by">نمایش به صورت</string>
+    <string name="sort_by">ترتیب بر اساس</string>
+    <string name="compress">فشرده سازی</string>
+    <string name="paste">بازنشانی</string>
+
+    <string name="first_folders">ابتدا فولدرها</string>
+    <string name="first_files">ابتدا فایل ها</string>
+    <string name="first_no">هیپکدام</string>
+    <string name="sort_name">مرتب سازی بر اساس نام</string>
+    <string name="sort_date">مرتب سازی بر اساس زمان</string>
+    <string name="sort_no">هیچکدام</string>
+    <string name="reverce">برعکس</string>
+
+    <string name="drawer_free_size1"> از </string>
+    <string name="drawer_free_size2"> خالی است </string>
+
+    <string name="cancel">انصراف</string>
+    <string name="ok">موافق</string>
+
+
+    <string name="B">بایت</string>
+    <string name="KB">کیلوبایت</string>
+    <string name="MB">مگابایت</string>
+    <string name="GB">گیگابایت</string>
+    <string name="TB">ترابایت</string>
+
+    <string name="item">مورد</string>
+    <string name="items">موارد</string>
+
+
+    <string name="DateFormat">yyyy:MM:dd HH:mm:ss</string>
+
+
+
+    <string name="storage">محل ذخیره</string>
+</resources>

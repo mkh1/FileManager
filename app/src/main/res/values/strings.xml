@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">FileManager</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="grid">Grid</string>
+    <string name="list">List</string>
+
+
+    <string name="search">Search</string>
+    <string name="delete">Delete</string>
+    <string name="newfolder">New Folder</string>
+    <string name="newtext">New Text</string>
+    <string name="move">Move</string>
+    <string name="copy">Copy</string>
+    <string name="show_by">View as</string>
+    <string name="sort_by">Sort by</string>
+    <string name="compress">Compress</string>
+    <string name="paste">Paste</string>
+
+
+    <string name="first_folders">Fisrt Folders</string>
+    <string name="first_files">Fisrt Files</string>
+    <string name="first_no">None</string>
+    <string name="sort_name">Sort with name</string>
+    <string name="sort_date">Sort with date</string>
+    <string name="sort_no">None</string>
+    <string name="reverce">Reverce</string>
+
+
+    <string name="drawer_free_size1">from</string>
+    <string name="drawer_free_size2">is free</string>
+
+    <string name="cancel">cancel</string>
+    <string name="ok">ok</string>
+
+
+    <string name="B">B</string>
+    <string name="KB">KB</string>
+    <string name="MB">MB</string>
+    <string name="GB">GB</string>
+    <string name="TB">TB</string>
+
+    <string name="item">item</string>
+    <string name="items">items</string>
+
+
+    <string name="DateFormat">MM/dd/yyyy HH:mm:ss</string>
+
+
+    <string name="storage">Storage</string>
+</resources>

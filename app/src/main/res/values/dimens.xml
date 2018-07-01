@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="naw_drawer_width">280dp</dimen>
+    <dimen name="height_bar">56dp</dimen>
+    <dimen name="height_line">46dp</dimen>
+    <dimen name="height_storeg_line">100dp</dimen>
+    <dimen name="height_progress">20dp</dimen>
+    <dimen name="size_icon">60dp</dimen>
+</resources>
