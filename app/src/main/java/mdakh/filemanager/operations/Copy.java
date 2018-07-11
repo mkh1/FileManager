@@ -1,9 +1,14 @@
 package mdakh.filemanager.operations;
 
 import android.content.Context;
+import android.provider.MediaStore;
+import android.widget.Toast;
+
 import org.apache.commons.io.FileUtils;
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+
 import mdakh.filemanager.Status;
 import mdakh.filemanager.adapters.MyRecyclerDownAdapter;
 
@@ -36,6 +41,7 @@ public class Copy {
                 address[a]=MyRecyclerDownAdapter.Files.get(i).getAbsolutePath();
                 name[a]=MyRecyclerDownAdapter.Files.get(i).getName();
                 a++;
+                MyRecyclerDownAdapter.Files.get(i).setCheck(false);
             }
         }
     }
@@ -45,7 +51,7 @@ public class Copy {
         for (int i=0;i<address.length;i++){
             int a=1;
             while (new File(dst+"/"+this.name[i]).exists()){
-                if (!(new File(dst+"/"+this.name[i]+a).exists()))
+                if (!(new File(dst+"/"+this.name[i]+a).exists())    )
                     this.name[i]=this.name[i]+a;
                 else a++;
             }
@@ -54,6 +60,17 @@ public class Copy {
     }
 
     private boolean copy(File src,File dst,File dir) {
+
+        if (src.getAbsolutePath().length()<dst.getAbsolutePath().length()){
+            try {
+                if (dst.getAbsolutePath().substring(0, src.getAbsolutePath().length()).equals(src.getAbsolutePath())) {
+                    return false;
+                }
+            }
+            catch (Exception e){
+
+            }
+        }
         if (src.isDirectory()){
             if (!new java.io.File(dir.getAbsolutePath()+"/"+src.getName()).exists()) {
                 java.io.File file = new java.io.File(dir.getAbsolutePath()+"/"+src.getName());

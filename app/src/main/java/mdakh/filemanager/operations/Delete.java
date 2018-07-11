@@ -42,6 +42,7 @@ public class Delete extends Thread {
             if (MyRecyclerDownAdapter.Files.get(i).isCheck()) {
                 address[a]=MyRecyclerDownAdapter.Files.get(i).getAbsolutePath();
                 a++;
+                MyRecyclerDownAdapter.Files.get(i).setCheck(false);
             }
         }
 

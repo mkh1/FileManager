@@ -6,4 +6,6 @@
     <dimen name="height_storeg_line">100dp</dimen>
     <dimen name="height_progress">20dp</dimen>
     <dimen name="size_icon">60dp</dimen>
+    <dimen name="text_Layout">5sp</dimen>
+    <dimen name="padding_text">10dp</dimen>
 </resources>

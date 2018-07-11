@@ -8,6 +8,7 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Environment;
+import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.DefaultItemAnimator;
@@ -30,7 +31,9 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
 import mdakh.filemanager.Database.DataBaseHelperForType;
+import mdakh.filemanager.Layouts.menu_single;
 import mdakh.filemanager.MainActivity;
 import mdakh.filemanager.R;
 import mdakh.filemanager.Status;
@@ -51,7 +54,7 @@ public class MyRecyclerDownAdapter extends RecyclerView.Adapter<MyRecyclerDownAd
     private static String address=null;
     private Tag_Address tag_address;
     public Search search=new Search();
-    private DataBaseHelperForType dataBaseHelperForType;
+    public static DataBaseHelperForType dataBaseHelperForType;
 
     public static final  int linear =R.layout.my_recycler_down_items_check;
     public static final int grid =R.layout.my_recycler_down_items_grid;
@@ -333,10 +336,6 @@ public class MyRecyclerDownAdapter extends RecyclerView.Adapter<MyRecyclerDownAd
 
 
 
-
-
-
-
     @Override
     public void onBindViewHolder(final myViewHolder holder, final int position) {
 
@@ -490,7 +489,8 @@ public class MyRecyclerDownAdapter extends RecyclerView.Adapter<MyRecyclerDownAd
         holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
-                Files.get(position).setCheck(false);
+                //Files.get(position).setCheck(false);
+                menu_single menu=new menu_single(context,position);
                 return false;
             }
         });

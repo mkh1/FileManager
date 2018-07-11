@@ -12,6 +12,8 @@ public class Status {
 
     public static boolean get_Main_list=false;
 
+    public static boolean RTL=false;
+
 
 
     public static class Status_Files{

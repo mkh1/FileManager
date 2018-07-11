@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="AppTheme.Base">
@@ -15,5 +15,26 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
+
+    <style name="alertDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">@color/drawer_objects</item>
+        <item name="android:textColor">@color/ic_action_bar</item>
+        <item name="android:textColorPrimary">@color/ic_action_bar</item>
+        <item name="android:textColorSecondary">@color/ic_action_bar</item>
+        <item name="android:titleTextColor" tools:targetApi="m">@color/ic_action_bar</item>
+        <item name="buttonBarPositiveButtonStyle">@style/text_color_button</item>
+        <item name="android:colorButtonNormal" tools:targetApi="lollipop">@color/ic_action_bar</item>
+        
+    </style>
+
+    <style name="text_color_button" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/ic_action_bar</item>
+    </style>
+
+
+
+
+
 
 </resources>

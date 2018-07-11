@@ -26,7 +26,7 @@ public class Nav_with_progress {
             LinearLayout.LayoutParams p1 = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, (int) context.getResources().getDimension(R.dimen.height_storeg_line));
             p1.setMargins(0,10,0,0);
             LinearLayout.LayoutParams p2 = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, (int) context.getResources().getDimension(R.dimen.height_progress));
-            LinearLayout.LayoutParams p3 = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.MATCH_PARENT);
+            LinearLayout.LayoutParams p3 = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT);
             LinearLayout.LayoutParams p4 = new LinearLayout.LayoutParams((int) context.getResources().getDimension(R.dimen.size_icon), LinearLayout.LayoutParams.MATCH_PARENT);
 
 
@@ -60,7 +60,7 @@ public class Nav_with_progress {
             LinearLayout line1 = new LinearLayout(context);
             line1.setLayoutParams(p3);
             line1.setOrientation(LinearLayout.HORIZONTAL);
-            line1.setPadding(10, 0, 10, 0);
+            //line1.setPadding(10, 0, 10, 0);
             line1.setGravity(Gravity.CENTER_VERTICAL);
             internal.addView(line1);
             ImageView icon = new ImageView(context);

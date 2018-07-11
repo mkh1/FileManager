@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#2196F3</color>
-    <color name="colorPrimaryDark">#0c00b7</color>
-    <color name="colorAccent">#c40011ff</color>
+    <color name="colorPrimary">#F01B1414</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#fafaff</color>
     <color name="ic_action_bar">#000000</color>
-    <color name="ic_icons">#000a54</color>
-    <color name="line_navigation">#cfcece</color>
-    <color name="line_internal">#ff0000</color>
-    <color name="address_background">#ebebf9</color>
+    <color name="ic_icons">#0288D1</color>
+    <color name="address_background">#fafaff</color>
     <color name="address_text">#000000</color>
-    <color name="items">#ebebf9</color>
+    <color name="items">#fafaff</color>
+    <color name="drawer_objects">#78fbb5</color>
+
+
+
     <color name="drawer_size_rached_normal">#55ff00</color>
     <color name="drawer_size_rached_full">#fb3c3c</color>
-    <color name="drawer_objects">#78fbb5</color>
 
 </resources>

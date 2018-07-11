@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
 
     <group
         android:orderInCategory="0">
@@ -28,7 +30,7 @@
             android:title="@string/newfolder"
             android:orderInCategory="300"
             android:icon="@drawable/ic_create_new_folder"
-            app:showAsAction="ifRoom"/>
+            app:showAsAction="ifRoom" />
 
         <item
             android:id="@+id/newText"

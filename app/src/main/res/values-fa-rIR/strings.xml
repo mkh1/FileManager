@@ -7,7 +7,7 @@
     <string name="list">لیست</string>
 
 
-
+    <string name="rename">تغییر نام</string>
     <string name="search">جستجو</string>
     <string name="delete">پاک کردن</string>
     <string name="newfolder">پوشه جدید</string>
@@ -18,6 +18,8 @@
     <string name="sort_by">ترتیب بر اساس</string>
     <string name="compress">فشرده سازی</string>
     <string name="paste">بازنشانی</string>
+    <string name="details">جزئیات</string>
+
 
     <string name="first_folders">ابتدا فولدرها</string>
     <string name="first_files">ابتدا فایل ها</string>
@@ -29,6 +31,8 @@
 
     <string name="drawer_free_size1"> از </string>
     <string name="drawer_free_size2"> خالی است </string>
+
+    <string name="exit_message">برای خروج دوباره کلیک کنید</string>
 
     <string name="cancel">انصراف</string>
     <string name="ok">موافق</string>
@@ -42,6 +46,13 @@
 
     <string name="item">مورد</string>
     <string name="items">موارد</string>
+
+
+    <string name="name">نام</string>
+    <string name="size">اندازه</string>
+    <string name="type">نوع</string>
+    <string name="more">بیشتر</string>
+
 
 
     <string name="DateFormat">yyyy:MM:dd HH:mm:ss</string>
